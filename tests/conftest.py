@@ -1,9 +1,10 @@
 """Shared fixtures and utilities for Donetick API client tests."""
 
-from typing import Any
+from typing import Any, Generator
 
 import pytest
 import responses
+from typing import Generator
 
 from donetick import DonetickClient
 
